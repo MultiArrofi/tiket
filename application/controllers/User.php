@@ -114,7 +114,7 @@ class User extends CI_Controller {
 		$this->load->view('Login');
 	}
 
-	public function login_action($value='')//njir gurung dadi salah tulung benahi ya seng bisa
+	public function login_action($value='')//belom jadi
 	{
 		# code...
 		$login = array('username' => $this->input->post('username'),
